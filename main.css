@@ -1,0 +1,35 @@
+﻿body {
+    background-image: linear-gradient(to right, rgb(215, 213, 247),  rgb(134, 191, 255) );
+
+  }
+  
+  .footer-copyright {
+    transform: translate(0px, 130px);
+  }
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+
+/*.custom-height {
+  height: calc(100vh - 74px - 40px) !important;
+}*/
+  .searchTerm {
+  width: 100%;
+  border: 3px solid rgb(245, 245, 245);
+  border-right: none;
+  padding: 23px;
+  height: 40px;
+  border-radius:20px; 
+  outline: none;
+  font-size: 17px;
+  }
+
+  
+  .search-icon {
+    font-size: 20px; 
+    transform: translate(-33px, 15px);
+    color: rgb(105, 156, 252);
+    cursor: pointer; 
+  }

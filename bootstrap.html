@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1 ">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/cdcda7a943.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand mr-auto font-weight-bold " href="#">Home</a>
+            <ul class="navbar-nav ">
+                <li class="nav-item dropdown d-none  d-md-block ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+            </ul>
+            <a class="navbar-brand" href="#">John Mayres</a>
+            <img src="x13.png" alt="jon" width="60" height="60" class="rounded-circle">
+        </div>
+    </nav>
+
+    <div class="container custom-height bg-white border rounded shadow-lg">
+
+        <div class="row ">
+            <div class="col-lg-4 col-md-6 col-sm-12 border  ">
+                <div
+                    class="d-flex  bg-white text-primary justify-content-center text-center mt-3 border border-top-0 border border-left-0 border border-right-0  ">
+                    <i class="fa fa-comments  ">
+                        <h6 class=" p-2">CHATS</h6>
+                    </i>
+                    <i class="fa fa-users  ">
+                        <h6 class=" p-2">CONTACTS</h6>
+                    </i>
+                    <i class="fa fa-star-o ">
+                        <h6 class=" p-2">FAVOURITES</h6>
+                    </i>
+                </div>
+
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="Search users by name ..">
+
+                    <i class="fa fa-search text-primary search-icon"></i>
+
+                </div>
+                <div class="d-flex flex-column ">
+                    <div>
+                        <div class="media border border-top-0 border border-left-0 border border-right-0 p-2 ">
+                            <img src="x13.png" alt="jon" width="60" height="60" class="rounded-circle mr-4">
+                            <div class="media-body">
+                                <h5> <strong>John Maryes</strong></h5>
+                                <div class="clearfix">
+                                    <pre class="float-left">how can i help you?</pre>
+                                    <span class="bg-white float-right">12min</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="media border border-top-0 border border-left-0 border border-right-0 p-2 ">
+                            <img src="x13.png" alt="jon" width="60" height="60" class="rounded-circle mr-4">
+                            <div class="media-body ">
+                                <h5> <strong>John Maryes</strong></h5>
+                                <div class="clearfix">
+                                    <pre class="float-left">how can i help you?</pre>
+                                    <span class="bg-white float-right">12min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div>
+                        <div class="media p-2    ">
+                            <img src="x13.png" alt="jon" width="60" height="60" class="rounded-circle mr-4">
+                            <div class="media-body">
+                                <h5> <strong>John Maryes</strong></h5>
+                                <div class="clearfix">
+                                    <pre class="float-left">how can i help you?</pre>
+                                    <span class="bg-white float-right">12min</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-6 d-none  d-md-block">
+                <div class="clearfix border border-top-0 border-left-0  border-right-0 mt-3  ">
+                    <h4 class="float-left">To: &nbsp <span class="text-primary">John Mayers</span></h4>
+                    <div class="float-right text-primary">
+                        <i class="fa fa-commenting-o"></i>
+                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-video-camera"></i>
+                    </div>
+                </div>
+
+                <div class="media border-0 mt-4">
+                    <img src="x13.png" alt="jon" width="60" height="60" class="rounded-circle ">
+                    <div class=" border ml-1 breadcrumb">
+
+                        <p>how can i help you?</p>
+
+                    </div>
+                </div>
+                <div class="media border-0  ">
+                    <img src="x13.png" alt="jon" width="60" height="60" class="rounded-circle ">
+                    <div class=" border my-sm-n2 ml-1 breadcrumb ">
+
+                        <p>hi my name is mike i will be happy <br> to assist you</p>
+
+                    </div>
+                </div>
+                <div class="media border-0 mt-5 float-right mb-5">
+
+                    <div class="media-body border my-n3 mr-1 breadcrumb bg-info">
+
+                        <p>hi i tried ordering this product and <br> it keeps showing me error</p>
+
+                    </div>
+                    <img src="x13.png" alt="jon" width="60" height="60" class="rounded-circle ">
+                </div>
+
+
+
+                <input type="text" class="form-control" id="usr" name="username">
+                <button type="button" class="btn btn-primary float-right px-4 py-1  mt-5 mb-5" data-toggle="modal"
+                    data-target="#myModal">REPLY</button>
+
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Warning</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">you donot have permission to enter here.</div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3  d-none  d-lg-block border   ">
+
+
+
+
+                <div class=" p-5 w-100  ">
+                    <img src="x13.png" alt="jon" width="80" height="80" class="rounded-circle ml-5 pl-1">
+                    <h4 class=" mt-3 font-weight-bold ml-5 mr-4 p-2 mb-0">JOHN </h4>
+                    <h6 class=" text-secondary ml-5"> FRANCISCO</h6>
+                    <div class="ml-5 pl-4 ">
+                        <i class="fab fa-facebook-square icon-facebook text-primary"></i>
+                        <i class="fab fa-twitter-square icon-twitter text-info"></i>
+                        <i class="fab fa-google-plus icon-google text-danger    "></i>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-bottom footer text-center py-2 bg-dark text-white mt-auto "> Copyright:
+        <a href="http://appout.co/"> appout!</a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
